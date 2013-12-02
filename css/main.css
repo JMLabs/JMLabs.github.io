@@ -382,12 +382,20 @@ header {
 	 Modify as content requires.
 	 ========================================================================== */
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
 	.bx-controls {
 		display: none;
 	}
+}
 
+@media only screen and (max-width: 400px) {
 	.icon {
 		display: block;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.nav-top em {
+		display: none;
 	}
 }
