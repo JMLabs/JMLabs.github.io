@@ -3,7 +3,7 @@ $(function() {
 		var window_height = $(window).height();
 
 		$('.slide').each(function(index, el) {
-			$(this).css('min-height', window_height - 40);
+			$(this).height(window_height - 40);
 		});
 
 		$('.super-wrap').offset({ top: window_height});
