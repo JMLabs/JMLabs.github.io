@@ -382,28 +382,12 @@ header {
 	 Modify as content requires.
 	 ========================================================================== */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 550px) {
 	.bx-controls {
 		display: none;
 	}
 
 	.icon {
 		display: block;
-	}
-}
-
-@media print,
-	(-o-min-device-pixel-ratio: 5/4),
-	(-webkit-min-device-pixel-ratio: 1.25),
-	(min-resolution: 120dpi) {
-	
-	.about-wrap {
-		background-image: url(bg/bg-cubes@2x.png);
-		background-size: 67px 100px;
-	}
-
-	footer {
-		background-image: url(bg/bg-illusion@2x.png);
-		background-size: 54px 58px;
 	}
 }
