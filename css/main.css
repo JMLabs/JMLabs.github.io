@@ -287,6 +287,25 @@ header {
 		background-image: url(bg/bg-illusion.png);
 		background-position: center;
 	}
+		footer a {
+			position: relative;
+			color: #D3A422;
+		}
+		footer a:hover:after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			display: block;
+			width: 100%;
+			height: 4px;
+			background: #D3A422;
+		}
+
+		footer .icon-mail:before,
+		footer .icon-phone:before {
+			position: relative;
+			top: 5px;
+		}
 
 /* ==========================================================================
 	 Helper classes
