@@ -237,21 +237,23 @@ header {
 			top: 10%;
 		}
 
+#more {
+	position: absolute;
+	bottom: 10px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	z-index: 900;
+}
+	#more .icon-arrow-up {
+		display: block;
+	}
+
 .super-wrap {
 	position: relative;
 	width: 100%;
 	z-index: 900;
 }
-	#more {
-		position: absolute;
-		top: -65px;
-		display: inline-block;
-		width: 100%;
-		text-align: center;
-	}
-		#more .icon-arrow-up {
-			display: block;
-		}
 
 	.about-wrap {
 		padding: 50px 0;
