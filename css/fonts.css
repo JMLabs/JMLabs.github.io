@@ -1,0 +1,76 @@
+@font-face {
+	font-family: 'jmlabs';
+	src:url('../fonts/jmlabs.eot');
+	src:url('../fonts/jmlabs.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/jmlabs.ttf') format('truetype'),
+		url('../fonts/jmlabs.woff') format('woff'),
+		url('../fonts/jmlabs.svg#jmlabs') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'jmlabs';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-left:before {
+	content: "\e600";
+}
+.icon-arrow-right:before {
+	content: "\e601";
+}
+.icon-phone:before {
+	content: "\e60f";
+}
+.icon-mail:before {
+	content: "\e610";
+}
+.icon-ruby:before {
+	content: "\e602";
+}
+.icon-beer:before {
+	content: "\e603";
+}
+.icon-newton:before {
+	content: "\e604";
+}
+.icon-plant:before {
+	content: "\e605";
+}
+.icon-rocket:before {
+	content: "\e606";
+}
+.icon-bulb:before {
+	content: "\e607";
+}
+.icon-brainstorm:before {
+	content: "\e608";
+}
+.icon-layers:before {
+	content: "\e609";
+}
+.icon-coffee:before {
+	content: "\e60a";
+}
+.icon-bike:before {
+	content: "\e60b";
+}
+.icon-lab:before {
+	content: "\e60c";
+}
+.icon-css3:before {
+	content: "\e60d";
+}
+.icon-html5:before {
+	content: "\e60e";
+}
