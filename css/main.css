@@ -259,7 +259,7 @@ header {
 	.about-wrap {
 		padding: 50px 0;
 		background-color: #FFF;
-		background-image: url(../img/bg-cubes.png);
+		background-image: url(/img/bg-cubes.png);
 		background-position: center;
 	}
 		.about p {
@@ -271,7 +271,7 @@ header {
 	footer {
 		padding: 50px 0;
 		background-color: #202020;
-		background-image: url(../img/bg-illusion.png);
+		background-image: url(/img/bg-illusion.png);
 		background-position: center;
 	}
 
@@ -396,4 +396,14 @@ header {
 	(-o-min-device-pixel-ratio: 5/4),
 	(-webkit-min-device-pixel-ratio: 1.25),
 	(min-resolution: 120dpi) {
+	
+	.about-wrap {
+		background-image: url(/img/bg-cubes@2x.png);
+		background-size: 67px 100px;
+	}
+
+	footer {
+		background-image: url(/img/bg-illusion@2x.png);
+		background-size: 54px 58px;
+	}
 }
