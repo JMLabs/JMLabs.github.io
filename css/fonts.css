@@ -35,8 +35,23 @@
 .icon-mail:before {
 	content: "\e610";
 }
-.icon-ruby:before {
+.icon-arrow-down:before {
 	content: "\e602";
+}
+.icon-arrow-up:before {
+	content: "\e60b";
+}
+.icon-little-arrow-left:before {
+	content: "\e60d";
+}
+.icon-little-arrow-down:before {
+	content: "\e60e";
+}
+.icon-little-arrow-up:before {
+	content: "\e611";
+}
+.icon-little-arrow-right:before {
+	content: "\e612";
 }
 .icon-beer:before {
 	content: "\e603";
@@ -62,15 +77,6 @@
 .icon-coffee:before {
 	content: "\e60a";
 }
-.icon-bike:before {
-	content: "\e60b";
-}
 .icon-lab:before {
 	content: "\e60c";
-}
-.icon-css3:before {
-	content: "\e60d";
-}
-.icon-html5:before {
-	content: "\e60e";
 }

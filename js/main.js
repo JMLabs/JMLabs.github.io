@@ -74,6 +74,12 @@ $(function() {
 		doc.animate({ scrollTop: 0 }, 500);
 	});
 
+	// Go to about when clicked
+	$('#more').click(function(event) {
+		event.preventDefault();
+		doc.animate({ scrollTop: $('.super-wrap').offset().top - 50}, 500);
+	});
+
 	// Flowtype.js
 	// -----------
 	// For Slider
